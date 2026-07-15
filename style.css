@@ -414,6 +414,31 @@ footer{
         white-space: nowrap;
     }
 
+    @media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .email-box {
+        flex-direction: column;
+    }
+}
+    @media (max-width: 768px) {
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
     
 
 
